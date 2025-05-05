@@ -4,9 +4,11 @@ interface ProjectCardProps {
   title: string;
   description: string;
   technologies: string[];
+  liveLink: string;
+  githubLink: string;
 }
 
-const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, technologies, liveLink, githubLink }: ProjectCardProps) => {
   return (
     <div className="project-card h-64 group">
       <div className="h-full flex items-center justify-center p-6">
@@ -22,7 +24,7 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
         </div>
         <div className="flex space-x-3">
   <a
-    href="https://your-live-project-link.com"
+    href={liveLink}
     target="_blank"
     rel="noopener noreferrer"
     className="btn-primary text-sm px-4 py-2 rounded-md"
@@ -31,7 +33,7 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
   </a>
   
   <a
-    href="https://github.com/Tirah1"
+    href={githubLink}
     target="_blank"
     rel="noopener noreferrer"
     className="btn-outline text-sm border-white text-white hover:bg-white hover:text-warm-brown px-4 py-2 rounded-md"

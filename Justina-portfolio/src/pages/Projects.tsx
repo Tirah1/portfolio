@@ -7,32 +7,44 @@ const Projects = () => {
     {
       title: "Car-dealership review App",
       description: "A business application that allows users to register, log in, view a list of car dealers, view individual dealer profiles, and post reviews",
-      technologies: ["React", "Django"]
+      technologies: ["React", "Django"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/Company-sales-website"
     },
     {
       title: "E-commerce Website",
       description: "Developed a responsive e-commerce platform for plant sales. Has a functional shopping cart and checkout process. Users can view and purchase plants online.",
-      technologies: ["React", "Redux", "Node.js"]
+      technologies: ["React", "Redux", "Node.js"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/e-plantShopping"
     },
     {
       title: "Task Management App",
       description: "Designed and developed a complete task manager using MERN. Has a user-friendly interface for task management. Applies CRUD operations, aunthentication and authorization.",
-      technologies: ["React", "Nodejs", "Mongodb"]
+      technologies: ["React", "Nodejs", "Mongodb"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/mern-crud"
     },
     {
       title: "Portfolio Website",
       description: "A modern portfolio website showcasing projects and skills with a clean, minimalist design.",
-      technologies: ["React", "TypeScript", "Framer Motion"]
+      technologies: ["React", "TypeScript", "Framer Motion"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/portfolio"
     },
     {
       title: "Chatbot Application",
       description: "Created an interactive chatbot using Flask and GPT APIs. The chatbot can answer user queries and provide information on various topics.",
-      technologies: ["Python", "Flask"]
+      technologies: ["Python", "Flask"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/creatingachatboxusingchatgpt"
     },
     {
       title: "Shipping Cost Calculator",
       description: "Build a Shipping Cost Calculator using Python that allows users to calculate the shipping cost based on the weight of a package and the shipping rate per kilogram.",
-      technologies: ["Python"]
+      technologies: ["Python"],
+      liveLink: "https://justina-taskmanager.vercel.app",
+      githubLink: "https://github.com/Tirah1/LogisticsShippingRates"
     },
     
   ];
@@ -50,6 +62,8 @@ const Projects = () => {
                 title={project.title}
                 description={project.description}
                 technologies={project.technologies}
+                liveLink={project.liveLink}
+                githubLink={project.githubLink}
               />
             ))}
           </div>
