@@ -44,7 +44,7 @@ const Home = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-warm-peach"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <img 
-                  src="/my-logo.jpeg" 
+                  src="/profile.jpeg" 
                   alt="Justina Ngina" 
                   className="w-56 h-56 md:w-72 md:h-72 object-cover rounded-full" 
                 />
