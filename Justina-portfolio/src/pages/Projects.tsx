@@ -36,7 +36,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A modern portfolio website showcasing projects and skills with a clean, minimalist design.",
       technologies: ["React", "TypeScript", "Framer Motion"],
-      liveLink: "https://justina-taskmanager.vercel.app",
+      liveLink: "https://portfoliojustina-pyl4not5k-justina-nginas-projects.vercel.app/",
       githubLink: "https://github.com/Tirah1/portfolio"
     },
     {
