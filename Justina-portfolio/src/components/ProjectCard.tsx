@@ -15,8 +15,8 @@ const ProjectCard = ({ title, description, technologies, liveLink, githubLink }:
         <h3 className="text-2xl font-poppins font-medium text-center text-warm-dark group-hover:opacity-0 transition-opacity duration-300">{title}</h3>
       </div>
       <div className="project-overlay">
-        <h3 className="text-2xl font-poppins font-medium text-white mb-2">{title}</h3>
-        <p className="text-white/90 mb-4">{description}</p>
+        <h3 className="text-2xl font-poppins font-medium text-gray mb-2">{title}</h3>
+        <p className="text-gray/90 mb-4">{description}</p>
         <div className="flex flex-wrap mb-4">
           {technologies.map((tech, index) => (
             <span key={index} className="tech-badge">{tech}</span>

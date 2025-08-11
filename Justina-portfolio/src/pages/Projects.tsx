@@ -6,8 +6,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Price Comparison App",
-      description: "A modern web application that helps users compare the prices of local products across different vendors. Users can view updated product listings, analyze price trends, and make informed purchasing decisions.",
-      technologies: ["Vite", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+      description:"helps users compare the prices of local products across different vendors. Users can view products, analyze prices, and make informed purchasing decisions.",
+      technologies: ["Vite", "React", "Node.js", "MongoDB"],
       liveLink: "https://localprices.vercel.app/", 
       githubLink: "https://github.com/Tirah1/localprices" 
     },
@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: "E-commerce Website",
-      description: "Developed a responsive e-commerce platform for plant sales. Has a functional shopping cart and checkout process. Users can view and purchase plants online.",
+      description: "A responsive e-commerce platform for plant sales. Has a functional shopping cart and checkout process. Users can view and purchase plants online.",
       technologies: ["React", "Redux", "Node.js"],
       liveLink: "https://justina-e-plant.vercel.app",
       githubLink: "https://github.com/Tirah1/e-plantShopping"
@@ -48,7 +48,7 @@ const Projects = () => {
     },
     {
       title: "Shipping Cost Calculator",
-      description: "Build a Shipping Cost Calculator using Python that allows users to calculate the shipping cost based on the weight of a package and the shipping rate per kilogram.",
+      description: "Build a Shipping Cost Calculator that allows users to calculate the shipping cost based on the weight and the shipping rate per kilogram.",
       technologies: ["Python"],
       liveLink: "https://justina-shippingcostcalc.vercel.app",
       githubLink: "https://github.com/Tirah1/LogisticsShippingRates"
